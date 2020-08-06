@@ -1,0 +1,14 @@
+QUESTION ON STRINGS
+---SAURABH SINGH--
+---s_baazi---
+
+1- Write a java Program to check whether given string is palindrome or not.
+
+2- Write a Java program to sort a string array in ascending order.
+Input the string: hello world welcome to vit
+Expected Output: cdeeehillllmoooorttvww
+
+3- Write a java program to sort the names in descending order.
+
+4- Write a java Program to check whether the given two strings are anagram or
+not.

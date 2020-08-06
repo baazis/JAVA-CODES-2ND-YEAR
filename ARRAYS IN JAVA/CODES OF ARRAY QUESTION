@@ -1,0 +1,271 @@
+---CODES OF GIVEN 8 QUESTIONS----
+----SAURABH SINGH----
+---s_baazi---
+-----------------------------------------------------------------------------------------
+1-
+
+public class SumofRowsSAURABH
+{
+public static void main(String[] args) {
+int row, col, sumofRow;
+int a[][] = {
+{12, 24, 13},
+{34, 3, 16},{52, 29, 49}
+};
+row = a.length;
+col= a[0].length;
+for(int i = 0; i < row; i++)
+{
+sumofRow = 0;
+for(int j = 0; j < col; j++){
+sumofRow +=a[i][j];
+}
+System.out.println("Sum of " + (i+1) +" row is following: " +
+sumofRow);
+}
+}
+}
+
+-----------------------------------------------------------------------------------------
+2-
+import java.util.Scanner;
+class AddMatrixbySAURABH
+{
+public static void main(String args[])
+{
+int r, c,i,j;
+Scanner temp = new Scanner(System.in);
+System.out.println("Enter number of rows");
+r = temp.nextInt();
+System.out.println("Enter number columns");
+c = temp.nextInt();int matrix1[][] = new int[r][c];
+int matrix2[][] = new int[r][c];
+int addofmatrix[][] = new int[r][c];
+System.out.println("Enter the elements of matrix1");
+for ( i= 0 ; i < r ; i++ )
+{
+for ( j= 0 ; j < c ;j++ )
+matrix1[i][j] = temp.nextInt();
+System.out.println();
+}
+System.out.println("Enter the elements of matrix2");
+for ( i= 0 ; i < r ; i++ )
+{
+for ( j= 0 ; j < c ;j++ )
+matrix2[i][j] = temp.nextInt();
+System.out.println();
+}
+for ( i= 0 ; i < r ; i++ )
+for ( j= 0 ; j < c ;j++ )
+addofmatrix[i][j] = matrix1[i][j] + matrix2[i][j] ;
+System.out.println("Addition of matrices is:-");
+for ( i= 0 ; i < r ; i++ )
+{
+for ( j= 0 ; j < c ;j++ )
+System.out.print(addofmatrix[i][j]+" ");System.out.println();
+}
+}
+}
+
+-----------------------------------------------------------------------------------------
+3-
+import java.util.*;
+public class TransposeofMatrixbySAURABH19BCI0184
+{
+public static void main(String args[])
+{
+int r,c;Scanner temp=new Scanner(System.in);
+System.out.print("Enter your number of rows: ");
+r=temp.nextInt();
+System.out.print("Enter your number of columns: ");
+c=temp.nextInt();
+int a[][]=new int[r][c];
+System.out.println("Enter elements of matrix A:");
+for(int i=0; i<r; i++)
+{
+for(int j=0; j<c; j++)
+{
+System.out.print("Element is : ");
+a[i][j]=temp.nextInt();
+}
+}
+System.out.println("Matrix a is given by:");
+for(int i=0; i<r; i++){
+for(int j=0; j<c; j++){
+System.out.print(a[i][j] + " ");
+}
+System.out.print("\n");
+}
+System.out.println(" Transpose Matrix is given by : ");
+for(int i=0; i<c; i++){
+for(int j=0; j<r; j++){
+System.out.print(a[j][i] + " ");
+}
+System.out.print("\n");
+}
+}
+}
+
+-----------------------------------------------------------------------------------------
+4-
+import java.util.Arrays;
+public class sorttingbySAURABHSINGH19BCI0184
+{
+public static void main(String[] args)
+{int numbers[] = new int[]{52, 28, 68, 27, 72, 98, 109, 88, 60, 10};
+int resultarra[];
+System.out.println("the Array IS: ");
+System.out.println(Arrays.toString(numbers));
+resultarra = rearrange(numbers,numbers.length);
+System.out.println("New Array is given by: ");
+System.out.println(Arrays.toString(resultarra));
+}
+static int[] rearrange(int[] new_arra, int n)
+{
+int temp[] = new int[n];
+int small_num = 0, large_num = n-1;
+boolean flag = true;
+for (int i=0; i < n; i++)
+{
+if (flag)
+temp[i] = new_arra[large_num--];
+else
+temp[i] = new_arra[small_num++];
+flag = !flag;
+}
+return temp;
+}
+}
+
+-----------------------------------------------------------------------------------------
+5-
+import java.util.Arrays;
+public class oddeven
+{
+public static void main (String[] args)
+{
+int nums[] = {20, 12, 23, 17, 7, 8, 10, 2, 1, 0};
+int result[];
+System.out.println("Original Array ");
+System.out.println(Arrays.toString(nums));
+result = sepoddeven(nums);
+System.out.print("Array after separation is given by: ");
+System.out.println(Arrays.toString(result));
+}
+static int [] sepoddeven(int arr[])
+{int ls = 0, rs = arr.length - 1;
+while (ls < rs)
+{
+while (arr[ls]%2 == 0 && ls < rs)
+ls++;
+while (arr[rs]%2 == 1 && ls < rs)
+right_side--;
+if (ls < rs)
+{
+int temp = arr[ls];
+arr[ls] = arr[rs];
+arr[right_side] = temp;
+ls++;
+rs--;
+}
+}
+return arr;
+}
+}
+
+-----------------------------------------------------------------------------------------
+6-
+public class duplicateelem {
+public static void main(String[] args) {
+int nums[] = {20, 20, 30, 40, 50, 50, 50};
+System.out.println("Original array length: "+nums.length);
+System.out.print("Array elements are: ");
+for (int i = 0; i < nums.length; i++)
+{
+System.out.print(nums[i]+" ");
+}
+System.out.println("\nThe new length of the array is:
+"+array_sort(nums)
+}
+public static int array_sort(int[] nums) {
+int index = 1;
+for (int i = 1; i < nums.length; i++) {
+if (nums[i] != nums[index-1])
+nums[index++] = nums[i];
+}
+return index; }}
+
+-----------------------------------------------------------------------------------------
+7-
+mport java.util.Scanner;
+public class P7Saurabh19bci0184 {
+public static void main( String args[]){
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter number of elements: ");
+int a=sc.nextInt();
+int b[];
+b=new int[a];
+System.out.println("ENter the array: ");
+for(int i=0;i<a;i++){
+b[i]=sc.nextInt();}
+System.out.println("Enter the sum: ");
+int c=sc.nextInt();
+for(int i=0;i<a;i++){
+for(int j=0;j<a;j++){
+if(c==b[i]+b[j]){
+System.out.print(" INDEX " + i );
+System.out.print(" INDEX " + j );
+System.out.println();
+}
+}
+}
+}
+}
+
+-----------------------------------------------------------------------------------------
+8-
+import java.util.Scanner;public class Saurabh19bci0184p8 {
+public static void main(String[] args) {
+double k;
+int a, b;
+int arr[][] = new int[4][];
+Scanner rit = new Scanner(System.in);
+for(a = 0; a < arr.length; a++){
+System.out.print("Enter number of weak students for the batch " + (a+1)
++ ": ");
+k = rit.nextDouble();
+int n= (int)k/4;
+System.out.print("Number of tutor for the batch " +(a+1) +"is :");
+if ((k/4)>(n)){
+System.out.println(n+1);}
+else {
+System.out.println(n);}
+arr[a] = new int[(int)Math.ceil(k/4)];
+for(b = 0; b < arr[a].length; b++)
+{
+if(k >= 4)
+arr[a][b] = 4;
+else
+arr[a][b] = (int)k;
+k = k - 4;
+}
+}
+rit.close();
+int jaggres = 0;
+System.out.println(" 2D Jagged Array is shown by : ");
+System.out.println();
+for (a = 0; a < arr.length; a++) {for (b = 0; b < arr[a].length; b++) {
+System.out.print(arr[a][b] + " ");
+if(arr[a][b] == 4)
+jaggres++;
+}
+System.out.println();
+}
+System.out.println("Number of tutors with 4 students are: " + jaggres );
+}
+}
+
+-----------------------------------------------------------------------------------------
+THANKYOU
+---SAURABH SINGH---
+---s_baazi---

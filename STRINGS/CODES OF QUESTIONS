@@ -1,0 +1,146 @@
+---SAURABH SINGH---
+---s_baazi---
+
+----------------------------------------------------------------------------------------------------------
+1-
+import java.util.*;
+public class quesSAURABH19bci0184 {
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+String s;
+int len;
+String r = "";
+s = sc.nextLine();
+len = s.length();
+for(int i=len-1; i>=0; i--){
+r = r + s.charAt(i);
+}
+if(s.equals(r)){
+System.out.println("The string is a palindrome.");
+}
+else {
+System.out.println("The string is not a palindrome.");
+}}}
+
+----------------------------------------------------------------------------------------------------------
+2-
+import java.util.Scanner;
+public class sortstring1Saurabh19bci0184 {
+public static void main(String args[]){
+Scanner tip = new Scanner(System.in);
+String str1;
+System.out.println("Enter the string to be sorted: ");
+str1=tip.nextLine();
+str1=str1.replaceAll("\\s","");
+int length= str1.length();
+char s[]=str1.toCharArray();
+for(int i=0;i<length;i++)
+for(int j=i+1;j<length;j++){
+if (s[i]>s[j]){
+char mp=s[i];
+s[i]=s[j];
+s[j]=mp;
+}
+}
+String str2= new String(s);
+System.out.println("The answer is:" );
+System.out.println(str2);
+}
+}
+
+----------------------------------------------------------------------------------------------------------
+3-
+import java.util.Scanner;
+public class NamesOrderSaurabh19BCI0184
+{
+public static void main(String[] args)
+{
+String t;
+Scanner scan = new Scanner(System.in);
+System.out.print("Enter number of names you want to enter:");
+int m = scan.nextInt();
+String namesort[] = new String[m];
+Scanner string = new Scanner(System.in);
+System.out.println("Enter all the names:");
+for(int i = 0; i < m; i++)
+{
+namesort[i] = string.nextLine();
+}
+for (int i = 0; i < m; i++)
+{
+for (int j = i + 1; j < m; j++)
+{
+if (namesort[i].compareTo(namesort[j])>0)
+{
+t = namesort[i];
+namesort[i] = namesort[j];
+namesort[j] = t;
+}
+}
+}
+System.out.println("The Names in Sorted Order is: ");
+for (int i = 0; i < m - 1; i++){
+System.out.println(namesort[i]);
+}
+System.out.print(namesort[m - 1]);
+}
+}
+
+----------------------------------------------------------------------------------------------------------
+
+4-
+import java.util.Scanner;
+public class JSaurabh19bci0184lastanagram
+{
+public static void main(String[] input)
+{
+String str1, str2;
+int lena, lenb, lenc;
+int temp=0, antitemp=0;
+Scanner strn = new Scanner(System.in);
+System.out.print("Enter the First String : ");
+str1 = strn.nextLine();
+System.out.print("Enter the Second String : ");
+str2 = strn.nextLine();
+lenb = str1.length();
+lenc = str2.length();
+if(lenb == lenc)
+{
+lena = lenb;
+for(int i=0; i<lena; i++)
+{
+temp= 0;
+for(int j=0; j<lena; j++)
+{
+if(str1.charAt(i) == str2.charAt(j))
+{
+temp = 1;
+break;
+}
+}
+if(temp == 0)
+{antitemp = 1;
+break;
+}
+}
+if(antitemp== 1)
+{
+System.out.print("The entered Strings are not Anagram to Each
+Other..!!");
+}
+else
+{
+System.out.print("The Entered Strings are Anagram Thankyou");
+}
+}
+else
+{
+System.out.print(" Strings don't have the same number of Characters ");
+}
+}
+}
+
+----------------------------------------------------------------------------------------------------------
+THANKYOU
+---SAURABH SINGH---
+---s_baazi---

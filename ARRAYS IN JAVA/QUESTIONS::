@@ -1,0 +1,26 @@
+1- Write a java Program to display the sum of rows in a matrix
+2- Write a java Program to display the addition of two matrix
+3- Write a java Program to display the transpose of a matrix
+4- Write a Java program to sort an array of positive integers of an given array,
+   in the sorted array the value of the first element should be maximum, second
+   value should be minimum value, third should be second maximum, fourth second
+   be second minimum and so on.
+5- Write a Java program to separate even and odd numbers of an given array of
+   integers. Put all even numbers first, and then odd numbers.
+6- Write a Java program to remove the duplicate elements of a given array and
+   return the new length of the array.
+7- Write a Java program to find the sum of the two elements of a given array
+   which is equal to a given integer.
+8- Write a program to demonstrate the knowledge of students in
+    multidimensional arrays and looping constructs. Eg., If there are 4 batches in
+    BTech - “CSE1007” course, read the count of the slow learners (who have scored
+    <25) in each batch. Tutors should be assigned in the ratio of 1:4 (For every 4 slow
+    learners, there should be one tutor). Determine the number of tutors for each
+    batch. Create a 2- D jagged array with 4 rows to store the count of slow learners
+    in the 4 batches. The number of columns in each row should be equal to the
+    number of groups formed for that particular batch ( Eg., If there are 23 slow
+    learners in a batch, then there should be 6 tutors and in the jagged array, the
+    corresponding row should store 4, 4, 4, 4, 4,3). Use for-each loop to traverse the
+    array and print the details. Also print the number of batches in which all tutors
+    have exactly 4 students. 
+  

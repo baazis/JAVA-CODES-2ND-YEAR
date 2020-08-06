@@ -1,1 +1,38 @@
+QUESTIONS ON BASICS OF JAVA!!
+___SAURABH SINGH___
+--19BCI0184--
 
+
+1. Read the radius and print the area of a circle
+2. Read the number and check whether it is divisible by 3 and 5.
+3. Display Subject Name based on room number. If the user enters 604 then
+    display Java Programming , If the user enters 605 then display Python
+    programming for any other input display Invalid input to the user.
+4. Print the sum of first n numbers. If n is 3 then print the sum of 1+2+3 to the
+    user. Get n from the user.
+5. Print the sum of the series 1^2+2^2+32^ up to n terms.
+6. Print the multiplication table by getting the n from the user.
+7. Provide the option of adding two numbers to the user until the user wants to
+    exit.
+ 8. Print this pattern for n lines
+  (a)  *
+       **
+       ***
+  (b)
+        1234
+        123
+        12
+        1
+  (c)
+          1
+          12
+          123
+          1234
+          12345
+          123456
+          123456
+          12345
+          1234
+          123
+          12
+          1

@@ -1,0 +1,173 @@
+CODES OF BASICS OF JAVA!!
+--SAURABH SINGH---
+---s_baazi---
+CHECK IT OUT!!
+
+Code 1:
+
+import java.util.Scanner;
+public class SAURABH35
+{
+public static void main(String[] args)
+{
+int a;
+Scanner r = new Scanner(System.in);
+System.out.print("Enter the number to check:");
+a = r.nextInt();
+if(a % 5 == 0 & a % 3 ==0)
+{
+System.out.println(a +" is divisible by 3 and 5");
+}
+else
+{
+System.out.println(a +" is not divisible by 3 and 5");
+}
+}
+}
+
+---------------------------------------------------------------------------------------------
+
+Code 2:
+
+import java.util.Scanner;
+public class SAURABH35
+{
+public static void main(String[] args)
+{
+int a;
+Scanner r = new Scanner(System.in);
+System.out.print("Enter the number to check:");
+a = r.nextInt();
+if(a % 5 == 0 & a % 3 ==0)
+{
+System.out.println(a +" is divisible by 3 and 5");
+}
+else
+{
+System.out.println(a +" is not divisible by 3 and 5");}
+}
+}
+
+-------------------------------------------------------------------------------------------
+
+Code 3:
+
+import java.util.Scanner;
+public class Pro{
+public static void main(String args[]){
+Scanner inp=new Scanner(System.in);
+int rm=inp.nextInt();
+if(rm==604){
+System.out.println("Java programming");
+}
+else if(rm==605){System.out.println("Python programming");}
+else
+System.out.println("Invalid input");}
+}
+
+----------------------------------------------------------------------------------------------
+
+Code 4:
+
+import java.util.Scanner;
+public class Sume{
+public static void main(String args[]){
+int count=1,total=0;
+Scanner inp= new Scanner(System.in);
+System.out.println("Enter the number till sum to be calculated: ");
+int no= inp.nextInt();
+while(count<=no){
+total=total+(count)
+count++;}
+System.out.println("Sum is: "+total);
+}
+}
+
+----------------------------------------------------------------------------------------------
+
+Code 5:
+
+import java.util.Scanner;
+public class Square{
+public static void main(String args[]){
+int count=1,total=0;
+Scanner inp= new Scanner(System.in);
+System.out.println("Enter the number till sum to be calculated: ");
+int no= inp.nextInt();
+while(count<=no)
+{total=total+count*count;
+count++;}
+System.out.println("Sum is: "+total);
+}
+}
+
+----------------------------------------------------------------------------------------------
+
+Code 6:
+
+import java.util.Scanner;
+public class Multiply{
+public static void main(String args[]){
+Scanner inp= new Scanner(System.in);
+System.out.println("Enter the number : ");
+int no= inp.nextInt();
+for(int i=1;i<=10;i++)
+{
+System.out.println(no+"*"+i+" = "+no*i);
+}}}
+
+----------------------------------------------------------------------------------------------
+
+Code 7:
+
+import java.util.*;
+import java.lang.*;
+public class Rules{
+public static void main(String[] args) {
+Scanner inp= new Scanner(System.in);
+while(true){
+System.out.println("Enter 1 for adding and 2 for exit:");
+int num= inp.nextInt();switch(num){
+case 1:
+System.out.println("Enter two numbers:");
+int n1=inp.nextInt();
+int n2=inp.nextInt();
+int sum=n1+n2;
+System.out.println("SUm is:"+sum);
+break;
+case 2:
+System.exit(0);}}
+}}
+
+----------------------------------------------------------------------------------------------
+CODE 8a and 8 b in screenshots folder!!!
+----------------------------------------------------------------------------------------------
+
+
+Code 8-c:
+
+import java.util.*;
+import java.lang.*;
+public class last1{
+public static void main(String[] args) {
+Scanner inp= new Scanner(System.in);
+System.out.println("Enter the number to start: ");
+int num= inp.nextInt();
+for( int i=1 ;i<=num;i++)
+{
+for( int j=1; j<=i;j++){
+System.out.print(j);
+}
+System.out.println( );}
+for( int i=num; i>=1;i--)
+{
+for( int j=1; j<=i;j++){
+System.out.print(j);
+}
+System.out.println( );
+}}}
+
+----------------------------------------------------------------------------------------------
+THANKYOU
+SAURABH SINGH
+s_baazi

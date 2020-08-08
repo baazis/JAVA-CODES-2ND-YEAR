@@ -1,5 +1,11 @@
-# JAVA-CODES-2ND-YEAR
-VIT2020 JAVA CODES PERFORMED ON SYSTEM AND UPLOADED
-SAURABH SINGH
-19BCI0184
-CSE WITH SPEC. IN INFORMATION SECURITY
+# JAVA-Codes 2ND year
+CSE1007 - JAVA Programming at VIT Vellore
+JAVA programs executed during class.
+
+### Contributors:
+1. Saurabh Singh
+   19BCI0184
+   CSE with Spec. in Information Security
+2. Vaishnav Srinidhi
+   19BCE0054
+   CSE (Core)
